@@ -1,5 +1,5 @@
 a=int(input("Total classes:"))
-b=int(input("Classes Attended:"))
+b=float(input("Classes Attended:"))
 x=(b/a)*100
 print("Attendence Percentage:",x)
 if(x>=75):
